@@ -1,4 +1,4 @@
-# C Programming Practice 🚀
+.# C Programming Practice 🚀
 
 This repository contains my C programming solutions and practice problems.
 
