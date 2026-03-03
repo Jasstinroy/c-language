@@ -1,9 +1,3 @@
-Got you 😌 keeping it clean and minimal (since you like short answers).
-
-Here’s a simple README for your **C language (clang) repo**:
-
----
-
 # C Programming Practice 🚀
 
 This repository contains my C programming solutions and practice problems.
@@ -28,7 +22,3 @@ This repository contains my C programming solutions and practice problems.
 ## 🎯 Purpose
 
 To strengthen problem-solving skills and build strong fundamentals in C.
-
----
-
-If you want a more professional version (for recruiters) or a very minimal 4–5 line version, tell me 👀
