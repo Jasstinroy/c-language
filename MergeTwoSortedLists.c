@@ -1,11 +1,8 @@
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
-    
-    // Dummy node
-    struct ListNode dummy;
+        struct ListNode dummy;
     struct ListNode* tail = &dummy;
     dummy.next = NULL;
     
-    // Traverse both lists
     while (list1 != NULL && list2 != NULL) {
         
         if (list1->val <= list2->val) {
@@ -18,9 +15,7 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
         
         tail = tail->next;
     }
-    
-    // Attach remaining nodes
-    if (list1 != NULL)
+        if (list1 != NULL)
         tail->next = list1;
     else
         tail->next = list2;
