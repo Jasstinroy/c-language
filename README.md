@@ -13,7 +13,7 @@ This repository contains my C programming solutions and practice problems.
 * Sorting & Searching
 * LeetCode Problems
 
-## 🛠️ Tech Used
+## Tech Used
 
 * Language: C
 * Compiler: Clang
