@@ -2,7 +2,7 @@
 
 This repository contains my C programming solutions and practice problems.
 
-##  Topics Covered
+## Topics Covered
 
 * Basic C Programs
 * Pointers
