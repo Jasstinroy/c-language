@@ -17,7 +17,7 @@ This repository contains my C programming solutions and practice problems.
 
 * Language: C
 * Compiler: Clang
-* Platform: Linux / VS Code
+* Platform: VS Code
 
 ## 🎯 Purpose
 
