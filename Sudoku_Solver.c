@@ -2,13 +2,13 @@
 
 bool isValid(char** board, int row, int col, char num) {
     for (int i = 0; i < 9; i++) {
-        // Check row
+        
         if (board[row][i] == num) return false;
 
-        // Check column
+       
         if (board[i][col] == num) return false;
 
-        // Check 3x3 box
+       
         int boxRow = 3 * (row / 3) + i / 3;
         int boxCol = 3 * (col / 3) + i % 3;
         if (board[boxRow][boxCol] == num) return false;
@@ -27,14 +27,14 @@ bool solve(char** board) {
                         if (solve(board))
                             return true;
 
-                        board[i][j] = '.'; // backtrack
+                        board[i][j] = '.'; 
                     }
                 }
-                return false; // no valid number found
+                return false; 
             }
         }
     }
-    return true; // solved
+    return true; 
 }
 
 void solveSudoku(char** board, int boardSize, int* boardColSize) {
